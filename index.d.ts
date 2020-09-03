@@ -6,8 +6,8 @@ export interface RSISImage {
 }
 
 export interface RSISProps {
-    width: string;
-    height: string;
+    width: number;
+    height: number;
     images: RSISImage[],
     style?: CSSStyleDeclaration,
     slideDuration?: number;
